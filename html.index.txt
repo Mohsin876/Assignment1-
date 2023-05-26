@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Optional: Set font-family and font sizes */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 150%;
+    }
+    .section-title {
+      font-size: 125%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Page</h1>
+
+  <div class="row">
+    <div class="section" id="section1">
+      <div class="section-title">Chicken</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="section" id="section2">
+      <div class="section-title">Beef</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="section" id="section3">
+      <div class="section-title">Sushi</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
